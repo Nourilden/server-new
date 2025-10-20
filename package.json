@@ -1,16 +1,13 @@
 {
-  "name": "fixly-api",
+  "name": "sever",
   "version": "1.0.0",
-  "main": "server.js",
+  "description": "Simple Vercel API proxy for OpenRouter with CORS enabled",
+  "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "start": "vercel dev"
   },
-  "engines": {
-    "node": ">=18.18.0"
-  },
-  "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^16.6.1",
-    "express": "^4.21.2"
-  }
+  "keywords": ["api", "vercel", "openrouter", "proxy"],
+  "author": "Noureldin",
+  "license": "MIT",
+  "dependencies": {}
 }
